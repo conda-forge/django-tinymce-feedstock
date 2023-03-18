@@ -1,5 +1,5 @@
 {% set name = "django-tinymce" %}
-{% set version = "3.5.0" %}
+{% set version = "3.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-tinymce-{{ version }}.tar.gz
-  sha256: ebe7e39e080415a0d4ca339f0f159754a7cc1dc7cd5276f32f9d3db3220134f8
+  sha256: 8a6817d8d365f81ea0035bbea8aa790a77b99604622fe23d72b3b3d9833363ce
 
 build:
   number: 0
