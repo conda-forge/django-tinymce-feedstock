@@ -25,7 +25,8 @@ requirements:
 
 test:
   imports:
-    - django_tinymce
+    - tests
+    - tests.testapp
   commands:
     - pip check
   requires:
