@@ -1,5 +1,5 @@
 {% set name = "django-tinymce" %}
-{% set version = "4.1.0" %}
+{% set version = "5.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 02e3b70e940fd299f0fbef4315aee5c185664e1eb8cd396b176963954e4357c9
+  sha256: 6257669ed596accf5fa967ff3061276b2c5352baac1bbc658fcd8252b12ca38a
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - django >=3.2
+    - django >=4.2
 
 test:
   imports:
