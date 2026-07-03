@@ -5,9 +5,13 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-tinymce-
 
 Home: https://github.com/jazzband/django-tinymce
 
-Package license: MIT
+Package license: MIT AND GPL-2.0-or-later
 
-Summary: A Django application that contains a widget to render a form field as a TinyMCE editor
+Summary: A Django application that contains a widget to render a
+
+Documentation: https://django-tinymce.readthedocs.org/
+
+A Django application that contains a widget to render a
 
 Current build status
 ====================
@@ -144,6 +148,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@mxr-conda](https://github.com/mxr-conda/)
 * [@rxm7706](https://github.com/rxm7706/)
 
